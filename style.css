@@ -1,128 +1,164 @@
-html{
+html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    }
-
-    body{
-        background-image: url("assests/fondo2.jpg");
-        color: white;
-        padding: 0;
-        margin: 0;
-        font-family: 'Khand', sans-serif;
-        font-weight: lighter;
-        background-position: center;
-       
-        background-size: cover;
-    }
-
-        .container{
-        width: 100%;
-        margin: auto;
-        position: relative;
-    
-    }
-
-            h1{
-            color: #f2f2f2;
-            font-size: 4em;
-            margin: 0;
-            text-align: center;
-
-            }
-
-            footer{
-            background-color: black;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            text-align: center;
-            width: 100vw;
-
-            }
-
-            footer p{
-            margin: 0;
-            font-size: 1.2em;
-
-            }
-
-            footer img{
-            width: 50px;
-            height: 50px;
-            padding-left: 5px;
-            padding-right: 5px;
-        
-            }
-
-            .whatsapp{
-
-             
-                display: inline-block;
-                margin: auto;
-                top: 80vh;
-                left: 90vw;
-                position: sticky;
-                
 }
 
-            .whatsapp img{
+body {
+    background-image: url("assests/fondo2.jpg");
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Khand', sans-serif;
+    font-weight: lighter;
+    background-position: center;
 
-                border-radius: 50%;
-                height: 50px;
-                
+    background-size: cover;
+}
 
-            }
+.container {
+    width: 100%;
+    margin: auto;
+    position: relative;
 
-            .foto{
+}
 
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
+h1 {
+    color: #f2f2f2;
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
 
-            .foto-foto{
+}
 
-                text-align: center;
-                margin: 20px;
-                display: flex;
-                align-items: center;
-                justify-items: center;
-                flex-direction: column;
-                  
-            }
-            .foto-foto img{
-           
-            }
-            .foto-item{
-   
-                display: flex;
-                font-size: 2rem;
-                align-items: center;
-                 
-            }
+footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100vw;
 
-            .foto-item ul li{
+}
 
-                padding: 30px;
-            }
+footer p {
+    margin: 0;
+    font-size: 1.2em;
 
-            .linea{
+}
 
-                background: linear-gradient(to right, blue, white );
-                height: 2px;
-                width: 100%;
-            }
+footer img {
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
 
-            h2{
+}
 
-                text-align: center;
-                font-size: 3rem;
-            }
+.whatsapp {
 
-footer a{
+
+    display: inline-block;
+    margin: auto;
+    top: 80vh;
+    left: 90vw;
+    position: sticky;
+
+}
+
+.whatsapp img {
+
+    border-radius: 50%;
+    height: 50px;
+
+
+}
+
+.foto {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-foto {
+
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+.foto-foto img {}
+
+.foto-item {
+
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+
+}
+
+.foto-item ul li {
+
+    padding: 30px;
+}
+
+.linea {
+
+    background: linear-gradient(to right, blue, white);
+    height: 2px;
+    width: 100%;
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer a {
 
     color: #f2f2f2;
     text-decoration: none;
 }
-            
 
-            
+@media (max-width:600px) {
+    h1 {
+        color: #f2f2f2;
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .foto-foto {
+        
+        text-align: center;
+        
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    .foto-foto img {
+        max-width: 90vw;
+    }
+    .foto-item {
+
+        display: flex;
+        font-size: 1rem;
+        align-items: center;
+    
+    }
+    .foto-item ul li {
+
+        padding: 10px;
+    }
+}
