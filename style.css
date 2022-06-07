@@ -5,7 +5,7 @@ html {
 
 body {
     background-image: url("assests/fondo2.jpg");
-    color: white;
+    color: #f2f2f2 !important;
     padding: 0;
     margin: 0;
     font-family: 'Khand', sans-serif;
@@ -15,12 +15,12 @@ body {
     background-size: cover;
 }
 
-.container {
+/*.container {
     width: 100%;
     margin: auto;
     position: relative;
 
-}
+}*/
 
 h1 {
     color: #f2f2f2;
@@ -90,7 +90,9 @@ footer img {
 
 }
 
-.foto-foto img {}
+.foto-foto img {
+    max-width: 600px;
+}
 
 .foto-item {
 
@@ -123,7 +125,9 @@ footer a {
     color: #f2f2f2;
     text-decoration: none;
 }
-
+.bg-dark{
+    --bs-bg-opacity: .5 !important;
+}
 @media (max-width:600px) {
     h1 {
         color: #f2f2f2;
